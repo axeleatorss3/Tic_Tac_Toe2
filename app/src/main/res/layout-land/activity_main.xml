@@ -10,7 +10,8 @@
     android:paddingRight="0dp"
     android:paddingBottom="0dp"
     android:weightSum="4"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:baselineAligned="false">
 
 
     <LinearLayout
