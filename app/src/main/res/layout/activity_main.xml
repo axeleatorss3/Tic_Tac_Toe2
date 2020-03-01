@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:paddingBottom="0dp"
+    android:paddingTop="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:weightSum="4"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="3"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/bt00"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#CE2196F3"
+            android:text="-"
+            android:textSize="40sp"></Button>
+
+        <Button
+            android:id="@+id/bt01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#CE2196F3"
+            android:text="-"
+            android:textSize="40sp"></Button>
+        <Button
+            android:id="@+id/bt02"
+            android:text="-"
+            android:textSize="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+            android:backgroundTint="#CE2196F3"
+        android:layout_weight="1">
+        </Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/bt10"
+            android:backgroundTint="#CE2196F3"
+            android:text="-"
+            android:textSize="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        </Button>
+        <Button
+            android:id="@+id/bt11"
+            android:textSize="40sp"
+            android:backgroundTint="#CE2196F3"
+            android:text="-"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        </Button>
+        <Button
+            android:id="@+id/bt12"
+            android:textSize="40sp"
+            android:text="-"
+            android:backgroundTint="#CE2196F3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn20"
+            android:backgroundTint="#CE2196F3"
+            android:textSize="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="-"
+            android:layout_weight="1">
+        </Button>
+        <Button
+            android:id="@+id/bt21"
+            android:backgroundTint="#CE2196F3"
+            android:text="-"
+            android:textSize="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        </Button>
+        <Button
+            android:id="@+id/bt22"
+            android:text="-"
+            android:backgroundTint="#CE2196F3"
+            android:textSize="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/textganador"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="Gana ?"
+            android:text=""
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/btnReintentar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Reintentar" />
+
+    </LinearLayout>
+
+</LinearLayout>
